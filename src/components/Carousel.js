@@ -23,7 +23,7 @@ const Carousel = ({ pages, onCurrentPageChange }) => {
               if (element.type === 'text') {
                 return <p key={elementIndex} className={element.className}>{element.content}</p>;
               } else if (element.type === 'image') {
-                return <img key={elementIndex} src={element.src} className={element.className} />;
+                return <img key={elementIndex} src={element.src} alt={`image-${pageIndex}-${elementIndex}`} className={element.className} />;
               }
               return null;
             })}
