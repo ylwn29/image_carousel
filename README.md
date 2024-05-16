@@ -1,6 +1,6 @@
 # Image Carousel React Project
 
-This is a React project that implements an image carousel component using the `react-slick` library. The carousel displays images and text in a dynamic and responsive manner. You can download individual page or all the pages as a PDF file.
+This is a React project that implements an image carousel component using `react-slick` and `modern-screenshot` libraries. The carousel displays images and text in a dynamic and responsive manner. You can download individual page as a PNG file or all the pages as a PDF file.
 
 ## Demo
 
@@ -29,6 +29,8 @@ You can follow these steps to start with this project:
 - `npm install --save-dev @babel/plugin-proposal-private-property-in-object`
 
 - `npm install tailwindcss@latest postcss@latest autoprefixer@latest`
+
+- `npm install jspdf modern-screenshot`
 
 ### Initialize Tailwind CSS
 
