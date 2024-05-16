@@ -13,7 +13,7 @@ const App = () => {
 
 
   return (
-    <div className="App container mx-auto p-4">
+    <div className="App container mx-auto p-4 mb-10">
       <h1 className="text-4xl font-bold text-center my-8">Image Carousel</h1>
       <Carousel pages={pages} onCurrentPageChange={handleCurrentPageChange}/>
       {/* <div className="text-center mt-16">

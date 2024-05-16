@@ -67,7 +67,7 @@ const Carousel = ({ pages, onCurrentPageChange }) => {
 
   return (
     <div className="carousel-container w-full max-w-screen-lg mx-auto">
-      <div className="text-center mt-16 mb-10">
+      <div className="text-center mt-10 mb-2">
         <button onClick={handleScreenshot} className="bg-purple-400 text-white font-bold py-2 px-4 rounded-3xl  hover:bg-purple-500 mr-4">
           Download
         </button>
