@@ -18,8 +18,8 @@ You can follow these steps to start with this project:
 
 ### Clone the repository
 
-git clone https://github.com/ylwn29/image_carousel.git
-cd image_carousel
+- `git clone https://github.com/ylwn29/image_carousel.git`
+- `cd image_carousel`
 
 ### Install neccssary dependencies
 
